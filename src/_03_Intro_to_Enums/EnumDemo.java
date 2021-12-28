@@ -70,7 +70,6 @@ public class EnumDemo {
          */
 
         Planets[] planets = Planets.values();
-
         
         /*
          * The planet variable can then be set to any random value in planets
@@ -121,6 +120,9 @@ public class EnumDemo {
         case NEPTUNE: {
             System.out.println("Neptune has 14 moons!");
             break;
+        }
+        default:{
+        	System.out.println("ERROR");;
         }
 
         }

@@ -16,6 +16,18 @@ public class EncapsulationDemo {
 
     public static void main(String[] args) {
 
+    	Car c = new Car(10, 6.5, "Red", 15);
+    	System.out.println(c.getFuelInTank());
+    	c.setFuelInTank(1);
+    	System.out.println(c.getFuelInTank());
+    	
+    	SUV s = new SUV(10, 6.5, "Red", 15, 6);
+    	s.setNumSeats(10);
+    	System.out.println(s.getNumSeats());
+    	s.setFuelInTank(3);
+    	
+    	
+    	
     }
 
 }
